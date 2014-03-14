@@ -21,6 +21,7 @@
 		E45429A418D36A5F000EE4D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E454298618D36A5F000EE4D5 /* UIKit.framework */; };
 		E45429AC18D36A5F000EE4D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E45429AA18D36A5F000EE4D5 /* InfoPlist.strings */; };
 		E45429AE18D36A5F000EE4D5 /* HermyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E45429AD18D36A5F000EE4D5 /* HermyTests.m */; };
+		E45429B918D36A7E000EE4D5 /* HHermyView.m in Sources */ = {isa = PBXBuildFile; fileRef = E45429B818D36A7E000EE4D5 /* HHermyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E45429A918D36A5F000EE4D5 /* HermyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HermyTests-Info.plist"; sourceTree = "<group>"; };
 		E45429AB18D36A5F000EE4D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E45429AD18D36A5F000EE4D5 /* HermyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HermyTests.m; sourceTree = "<group>"; };
+		E45429B718D36A7E000EE4D5 /* HHermyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHermyView.h; sourceTree = "<group>"; };
+		E45429B818D36A7E000EE4D5 /* HHermyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHermyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				E454299418D36A5F000EE4D5 /* Main.storyboard */,
 				E454299718D36A5F000EE4D5 /* HViewController.h */,
 				E454299818D36A5F000EE4D5 /* HViewController.m */,
+				E45429B718D36A7E000EE4D5 /* HHermyView.h */,
+				E45429B818D36A7E000EE4D5 /* HHermyView.m */,
 				E454299A18D36A5F000EE4D5 /* Images.xcassets */,
 				E454298918D36A5F000EE4D5 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				E454299918D36A5F000EE4D5 /* HViewController.m in Sources */,
 				E454298F18D36A5F000EE4D5 /* main.m in Sources */,
 				E454299318D36A5F000EE4D5 /* HAppDelegate.m in Sources */,
+				E45429B918D36A7E000EE4D5 /* HHermyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
